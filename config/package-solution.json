@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "contract-gen-client-side-solution",
+    "id": "c0e29fd9-bed1-487d-b6ec-3f6c46ef6d16",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "contract-gen description"
+      },
+      "longDescription": {
+        "default": "contract-gen description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "contract-gen Feature",
+        "description": "The feature that activates elements of the contract-gen solution.",
+        "id": "f1cdbc8d-a423-4ad3-86a9-2fdc032f7070",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/contract-gen.sppkg"
+  }
+}

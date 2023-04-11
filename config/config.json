@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "contract-gen-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/contractGen/ContractGenWebPart.js",
+          "manifest": "./src/webparts/contractGen/ContractGenWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "ContractGenWebPartStrings": "lib/webparts/contractGen/loc/{locale}.js"
+  }
+}
